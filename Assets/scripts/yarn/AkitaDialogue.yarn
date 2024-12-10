@@ -1,0 +1,63 @@
+﻿title: AkitaDialogue
+tags:
+---
+You find yourself outside a cat cafe. It's early in the morning, a bit brisk but nothing too bad.
+Having just moved here, you needed to find a job ASAP, and, luckily for you, this place had an opening! It was currently your first day, and you were nervous.
+The owner seemed nice enough from the little bit you'd spoken with her. You'd met her when you came in for the interview.
+She'd insisted you call her by her first name, Siobhan, and had basically hired you on the spot- for what reason, you couldn't really tell. She'd just said she liked your "energy" or something like that.
+You were supposed to meet her outside to help her open, but it had been a few minutes and you hadn't seen her yet.
+-> Wait outside a little longer.
+After another minute of waiting, a large, dark skinned man covered in about four kittens walked out of the cafe, waving at you nervously.
+???: H-hi there! Sorry to keep you wai-waiting, Miss S-siobhan had some errands to ru-run a-and she asked me to c-come out and meet you, but I got a little um... b-busy.
+You can tell he still is, what with the squirming cats climbing all over him and trapped in his arms.
+-> Tell him it's fine and offer help.
+    You: It's okay! Need some help with those guys?
+    ???: O-oh it's alright! N-no need, really. I've got enough space on me for about three more, haha- you can just go i-i-inside and get ch-changed into your uniform! I-i've got this
+    His laugh seems awkward, but genuine. At least he's aware of his sheer *size*. He *had* to be at least 7ft, you're sure of it.
+    -> Ask him how tall he is
+        ???: Oh- u-um. Maybe about 7'1? I had a- gl-gland... issue. I-it's fine now, though! Let's go inside-
+        <<jump Inside>>
+    -> Go inside.
+    <<jump Inside>>
+-> Complain about having to wait so long
+    You: I was waiting for almost ten minutes. It's *cold* out. Did you just forget??
+    ???: Y-yeah, sorry about th-that. Um- the cats got into something and I had to cl-clean it up and- m-make sure they did-didn't eat it. Let's just- g-go inside, yeah?
+    <<jump Inside>>
+===
+
+title: Inside
+tags:
+---
+The inside of the cafe is a lot nicer than you expect it to be. It seems the cats have their own section of the place separate from the main dining area, so eating with them isn't exactly required.
+There's also a lot less cat hair than you thought there'd be. These guys must all work really hard to keep things clean.
+???: Here we are, haha- it's not much, but we all make it work, you know? Oh!
+Akita: I'm Akita, by the way. S-sorry I- I totally forgot to introduce m-myself. I'm your manager, haha...
+His laugh is nervous again, and he keeps stuttering. Is he really that nervous?
+ -> Kindly reassure him.
+    You: It's *okay*, really. I'm (name), nice to meet you.
+    Akita: Oh! It's nic-nice to meet you, (name)- sorry I'm so scattered today, haha- i-it won't ha-happen again.
+ -> Ask him if you make him nervous (FLIRT)
+        You: What, do I make you nervous or something, Akita?
+        You say his name with an ever so slightly flirty affliction, and he turns beet red.
+        <<PlayShakeFlustered Akita>>
+        <<PlayFlusteredStill Akita>>
+        Akita: I- U-uh... N-no! Not at a-all, I-I'm just... g-ge-gen-generally. Nervous. 
+        Akita: I a-also have a. Ch-chronic stutter, so-
+        -> Tell him you think it's cute.
+            You: It's kinda cute.
+            Akita: O-oh uh- Thanks, haha-
+            <<PlayShakeFlustered Akita>>
+            <<PlayFlusteredStill Akita>>
+            His nervous laugh is cut off by a loud meow from one of the kittens, who seems to be getting restless.
+            Akita: Oh uH- we sh-should really get to wo-work! C-come on, I'll sh-show you where to f-find your uniform apron.
+        -> Change the subject
+            You: We should probably get to work, huh?
+            Akita: OH! Y-yeah, haha- just this way, I'll show you where your uniform apron is-
+            <<PlayNormal Akita>>
+ -> Insult him/make fun of his stutter.
+    You:God, can you just speak properly? 
+    Akita: Wh-what...?
+    You: It's annoying. Get some anxiety meds or go to speech therapy and learn to talk *normal.*
+    Akita: U-uhm... s-sure, yeah- just uh- come this way, I'll show you wh-where your um- uniform a-apron is...
+    He looks *hurt*, sad. Maybe you should've said something else.
+===
